@@ -1,0 +1,271 @@
+body {
+    background-color: bisque;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+/*************************/
+
+header {
+    background-color: black;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#head {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#cogotoon {
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}
+
+/*************************/
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    color: black;
+
+
+
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+/*************************/
+
+main {
+    background-color: blue;
+    height: 60%;
+    width: 100%;
+}
+
+.container1 {
+    background-color: gray;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner {
+    background-color: white;
+    width: 97%;
+    height: 90%;
+}
+
+/******************/
+.container2 {
+    background-color: black;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+#photos {
+    background-color: white;
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+#carrousel {
+
+    width: 90%;
+    height: 90%;
+
+}
+
+.carousel-item {
+    width: 450px;
+    height: 470px;
+
+}
+
+#carrousel {
+    width: 550px;
+    height: fit-content
+}
+
+#description {
+    background-color: bisque;
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#info {
+    background-color: yellow;
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subInfo {
+    background-color: white;
+    width: 93%;
+    height: 90%;
+
+}
+
+#shipping {
+    background-color: black;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subShipping {
+    background-color: white;
+    width: 93%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* input de búsqueda */
+#inputBusqueda {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* lista de localidades */
+#listaLocalidades {
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    max-height: 200px;
+    
+}
+
+#listaLocalidades li {
+    padding: 10px;
+    font-size: 16px;
+    border-right: 1px solid #ccc;
+}
+
+#listaLocalidades li:last-child {
+    border-right: none;
+}
+
+
+
+.subShippingForm {
+    background-color: aqua;
+    width: 50%;
+    height: 100%;
+}
+
+.subShippingOption {
+    width: 50%;
+    height: 100%;
+}
+
+#pay {
+    background-color: blue;
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#subPay {
+    background-color: rgb(199, 53, 53);
+    width: 93%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-right: 30px;
+}
+
+#mercadopago {
+    display: flex;
+    width: fit-content;
+}
+
+#mercadopagoPh {
+    scale: 0.4;
+
+}
+
+/******************/
+
+
+.container3 {
+    background-color: grey;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#metosDePago {
+    background-color: brown;
+    width: 97%;
+    height: auto;
+
+}
+
+#metosDePago img {
+    width: 100%;
+    height: auto;
+}
+
+#social {
+    background-color: white;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/*************************/
+footer {
+    background-color: black;
+
+}
