@@ -9,7 +9,7 @@ body {
 /*************************/
 
 header {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     height: 150px;
     display: flex;
     justify-content: center;
@@ -27,8 +27,9 @@ header {
 }
 
 #cogotoon {
-
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'oreo';
+    src: url('tipografia/oreos.ttf') format('truetype');
+    color: black;
     font-size: 100px;
 }
 
@@ -51,6 +52,49 @@ ul {
 
 }
 
+#banner {
+    display: flex;
+    background-color: white;
+    width: 99%;
+    height: 90%;
+}
+
+#banner img{
+    width: 17%;
+    
+}
+
+#banner h3{
+    text-decoration: underline;
+    font-size: x-large;
+}
+
+#banner p{
+    font-size: small;
+}
+
+#subBanner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3333%;
+}
+#subBanner2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3333%;
+
+}
+#subBanner3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 33.3333%;
+}
 
 /*************************/
 
@@ -68,11 +112,6 @@ main {
     align-items: center;
 }
 
-#banner {
-    background-color: white;
-    width: 97%;
-    height: 90%;
-}
 
 /******************/
 .container2 {
@@ -132,6 +171,10 @@ main {
     background-color: white;
     width: 93%;
     height: 90%;
+    padding-left: 4%;
+    padding-right: 3%;
+    padding-top: 5%;
+
 
 }
 
@@ -176,7 +219,7 @@ main {
     border: 1px solid #ccc;
     border-radius: 5px;
     max-height: 200px;
-    
+
 }
 
 #listaLocalidades li {
@@ -268,4 +311,10 @@ main {
 footer {
     background-color: black;
 
+}
+
+
+@font-face {
+    font-family: 'oreo';
+    src: url('tipografia/oreos.ttf') format('truetype');
 }
